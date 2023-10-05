@@ -10,6 +10,8 @@
 }
 
 .big-card__photo > img{
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
     width: 100%;
     min-width: 500px;
 }

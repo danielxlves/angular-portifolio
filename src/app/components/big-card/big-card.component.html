@@ -2,7 +2,7 @@
 
     <div class="big-card__photo">
         <img 
-        src="../../../assets/img_not_found.jpg" 
+        src="{{photoBigCard}}" 
         alt=""
         height="300px"
         width="450px"
@@ -10,16 +10,16 @@
     </div>
 
     <div class="big-card__data">
-        <span>11/01/2001</span>
+        <span>{{dataBigCard}}</span>
     </div>
 
     <div class="big-card__title">
-        <h1>  <a href=" "> Saiu nova versão do angular </a> </h1>
+        <h1>  <a [routerLink]="['content', Id]"> {{titleBigCard}} </a> </h1>
     </div>
 
     <div class="big-card__resume">
         <p> 
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            {{resumeBigCard}}
         </p>
     </div>
 

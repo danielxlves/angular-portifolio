@@ -4,11 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
+    background-color: #030008;
     color: white;
     font-family: 'segoe UI';
 }
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(113, 133, 136);
 }
